@@ -15,5 +15,5 @@ def invoke(cmd):
     except Exception as e:
         log_tool.error('执行命令失败，请检查环境配置')
         log_tool.error(e)
-        raise 
+        raise
 
