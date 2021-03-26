@@ -1,5 +1,5 @@
-# API_URL="http://api.yansl.com:8084"
-API_URL="http://192.168.0.135:6080/"
+API_URL = "http://192.168.0.135:28081"
+# API_URL="http://192.168.0.135:6080/"
 GY_DB_QA = {
     'host': '192.168.1.151',
     'port': 3306,
