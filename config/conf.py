@@ -1,11 +1,11 @@
 API_URL = "http://192.168.0.135:28081"
 # API_URL="http://192.168.0.135:6080/"
 GY_DB_QA = {
-    'host': '192.168.1.151',
+    'host': '192.168.50.111',
     'port': 3306,
     'database': 'guoya_virtual_mall',
-    'user': 'stu123',
-    'password': 'stu123',
+    'user': 'root',
+    'password': 'swb@123456',
     'charset': 'utf8'
 }
 

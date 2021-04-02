@@ -39,6 +39,7 @@ class mysql_db():
             print("查询失败")
         finally:
             conn.close()
+        print(rows)
         return rows
 
 
@@ -63,8 +64,8 @@ class mysql_db():
 
 
 if __name__=='__main__':
-    mydb = mysql_db('192.168.60.132','root','root','mall')
-    mydb.update_execute("UPDATE `oms_order` SET STATUS = 1;")
+    mydb = mysql_db('localhost','root','swb@123456','sys')
+    mydb.select_execute("SELECT * FROM sys_config")
 
 
 
