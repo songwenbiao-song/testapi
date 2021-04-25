@@ -24,4 +24,7 @@ def test_post_json(pub_data):
     a = r.json()['msg']
     b = '操作成功'
     assert_equal(a,b)
+    print('111')
     return a
+
+
