@@ -1,0 +1,9 @@
+---------------response----------------
+200
+Server: nginx/1.19.2
+Date: Fri, 23 Apr 2021 02:19:28 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"msg":"操作成功","code":200,"data":{"pageNum":1,"pageSize":10,"total":"0","pages":0,"list":[]}}

@@ -1,0 +1,234 @@
+{
+  "uid" : "3fdbeedb66be0095",
+  "name" : "allure报告中用例名字",
+  "fullName" : "test_case.test_ure#test_post_json",
+  "historyId" : "f07f20f711a3d783b17eac6fedd1a4b3",
+  "time" : {
+    "start" : 1619150163079,
+    "stop" : 1619150163193,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pub_data",
+    "time" : {
+      "start" : 1619150162891,
+      "stop" : 1619150163078,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步：获取url",
+      "time" : {
+        "start" : 1619150162891,
+        "stop" : 1619150162891,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第二步：准备测试数据",
+      "time" : {
+        "start" : 1619150162891,
+        "stop" : 1619150162891,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第三步：发送请求",
+      "time" : {
+        "start" : 1619150162891,
+        "stop" : 1619150163077,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e71077e7048beb5d",
+        "name" : "request",
+        "source" : "e71077e7048beb5d.txt",
+        "type" : "text/plain",
+        "size" : 281
+      }, {
+        "uid" : "6e9aa977474b42c8",
+        "name" : "response",
+        "source" : "6e9aa977474b42c8.txt",
+        "type" : "text/plain",
+        "size" : 579
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第四步：判断结果",
+      "time" : {
+        "start" : 1619150163078,
+        "stop" : 1619150163078,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步：获取url",
+      "time" : {
+        "start" : 1619150163079,
+        "stop" : 1619150163079,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第二步：准备测试数据",
+      "time" : {
+        "start" : 1619150163079,
+        "stop" : 1619150163079,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第三步：发送请求",
+      "time" : {
+        "start" : 1619150163079,
+        "stop" : 1619150163193,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8aebf0b19df550e",
+        "name" : "request",
+        "source" : "c8aebf0b19df550e.txt",
+        "type" : "text/plain",
+        "size" : 571
+      }, {
+        "uid" : "ec479103454de172",
+        "name" : "response",
+        "source" : "ec479103454de172.txt",
+        "type" : "text/plain",
+        "size" : 297
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第四步：判断结果",
+      "time" : {
+        "start" : 1619150163193,
+        "stop" : 1619150163193,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e62f35b5363b1b79",
+      "name" : "log",
+      "source" : "e62f35b5363b1b79.txt",
+      "type" : "text/plain",
+      "size" : 3913
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试"
+  }, {
+    "name" : "story",
+    "value" : "allure报告中二级分类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ure"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DBKS4O"
+  }, {
+    "name" : "thread",
+    "value" : "17020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fdbeedb66be0095.json",
+  "parameterValues" : [ ]
+}

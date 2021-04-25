@@ -1,0 +1,14 @@
+---------------response----------------
+200
+Server: nginx/1.19.2
+Date: Fri, 23 Apr 2021 02:19:28 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+
+{"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImZkMGI5MzYzLWVkN2ItNGZlOC05OTMyLTZmMWRjZTg3ZmI0ZCJ9.39zDY2bFy3_TJTlyQjM29xQKS6CLj9RgZ6NBvlCFrxOuAjy0ASIqgSTvMLVuw0YU3nHCK1yISQLbbVHCWPA_2w"}

@@ -1,0 +1,502 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-1DBKS4O",
+    "children" : [ {
+      "name" : "22936-MainThread",
+      "children" : [ {
+        "name" : "test_post_json",
+        "uid" : "971ea26e087e76b7",
+        "parentUid" : "304db1349c0aa6e60f8d3c518b7bec20",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619175660819,
+          "stop" : 1619175660819,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "304db1349c0aa6e60f8d3c518b7bec20"
+    }, {
+      "name" : "15852-MainThread",
+      "children" : [ {
+        "name" : "全字段正常流_1",
+        "uid" : "53d97ca7ef367dce",
+        "parentUid" : "1cd168def13473af689407330395f2cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619083815384,
+          "stop" : 1619083815511,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cd168def13473af689407330395f2cf"
+    }, {
+      "name" : "27560-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "37e26d69c2cedea0",
+        "parentUid" : "f1db53cf3f57f9f47847b2ca6097a95f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619159559032,
+          "stop" : 1619159559140,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1db53cf3f57f9f47847b2ca6097a95f"
+    }, {
+      "name" : "11932-MainThread",
+      "children" : [ {
+        "name" : "test_post_json",
+        "uid" : "af46c0067d3f29f3",
+        "parentUid" : "c71b748412afc3d85a088115f25fe247",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619173720364,
+          "stop" : 1619173720364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c71b748412afc3d85a088115f25fe247"
+    }, {
+      "name" : "11408-MainThread",
+      "children" : [ {
+        "name" : "test_post_json",
+        "uid" : "166a50fa163b5c9",
+        "parentUid" : "9ab5f1bf7c7031ac98c22fd71020158f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619084320493,
+          "stop" : 1619084320493,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ab5f1bf7c7031ac98c22fd71020158f"
+    }, {
+      "name" : "25668-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "99822a0036534819",
+        "parentUid" : "b0e99a9e56948d03845a3b4b4f30e34f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619151845649,
+          "stop" : 1619151845763,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0e99a9e56948d03845a3b4b4f30e34f"
+    }, {
+      "name" : "14284-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "82ea460c36aade28",
+        "parentUid" : "b0d82ab2b621d071ac672a9f8b117fb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619144290993,
+          "stop" : 1619144291111,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0d82ab2b621d071ac672a9f8b117fb9"
+    }, {
+      "name" : "17020-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "3fdbeedb66be0095",
+        "parentUid" : "c54d7e1128dc2f5f4733ffe0e62da1e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150163079,
+          "stop" : 1619150163193,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c54d7e1128dc2f5f4733ffe0e62da1e9"
+    }, {
+      "name" : "31216-MainThread",
+      "children" : [ {
+        "name" : "test_post_json",
+        "uid" : "9e563d48ee369f",
+        "parentUid" : "f0a0ad4ab97dd034f19b6e1b0bfe2303",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619262060597,
+          "stop" : 1619262060597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0a0ad4ab97dd034f19b6e1b0bfe2303"
+    }, {
+      "name" : "3944-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "f018d4235651fd2",
+        "parentUid" : "4d4f6880b7e5282d016f5a5d2f5868cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150121119,
+          "stop" : 1619150121230,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d4f6880b7e5282d016f5a5d2f5868cb"
+    }, {
+      "name" : "22236-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "d4aff7c6ec678a64",
+        "parentUid" : "9ef2d5de00e889efbeda936870c6dec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619089426965,
+          "stop" : 1619089427068,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ef2d5de00e889efbeda936870c6dec3"
+    }, {
+      "name" : "16240-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "c03921124fcb3b4a",
+        "parentUid" : "4e7f2a4d7cda40df68622fa73f482440",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150082917,
+          "stop" : 1619150083028,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e7f2a4d7cda40df68622fa73f482440"
+    }, {
+      "name" : "23740-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "a28bb9fca4da8847",
+        "parentUid" : "e80d51161be8b90ea2963657ff7411a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163857333,
+          "stop" : 1619163857441,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e80d51161be8b90ea2963657ff7411a1"
+    }, {
+      "name" : "29836-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "b5ddefbfdef8423",
+        "parentUid" : "49fbdeb1ffa69c32fd13c9ef4529879d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619161850714,
+          "stop" : 1619161850836,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49fbdeb1ffa69c32fd13c9ef4529879d"
+    }, {
+      "name" : "22732-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "a58849821b98ab4",
+        "parentUid" : "6265f0e56825329a7c754b7c1e7993c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619142498538,
+          "stop" : 1619142498653,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6265f0e56825329a7c754b7c1e7993c8"
+    }, {
+      "name" : "15428-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "ff06dea5c269122c",
+        "parentUid" : "3d0455416f8717ffd6e5b55f5ddfdd1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619161973202,
+          "stop" : 1619161973327,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d0455416f8717ffd6e5b55f5ddfdd1e"
+    }, {
+      "name" : "18688-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "5b60e3da93bab58",
+        "parentUid" : "cd24042eebade74fbc62158ec3e47e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619144368917,
+          "stop" : 1619144369020,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd24042eebade74fbc62158ec3e47e27"
+    }, {
+      "name" : "18112-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "ea72f0ac81ae7d87",
+        "parentUid" : "2933fc306de25b71ee71dfa4a95391d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150272016,
+          "stop" : 1619150272124,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2933fc306de25b71ee71dfa4a95391d9"
+    }, {
+      "name" : "16092-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "fc4b2dcb0ac92f26",
+        "parentUid" : "5d0f9ed935de176b324bae3ea34ef612",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619159660891,
+          "stop" : 1619159661001,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d0f9ed935de176b324bae3ea34ef612"
+    }, {
+      "name" : "7816-MainThread",
+      "children" : [ {
+        "name" : "test_post_json",
+        "uid" : "98f13e6b343619c5",
+        "parentUid" : "311d9bd0887cc22ec57e64e4e98974a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619173646040,
+          "stop" : 1619173646040,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "311d9bd0887cc22ec57e64e4e98974a8"
+    }, {
+      "name" : "26148-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "9fa1142d67ea7fe3",
+        "parentUid" : "1b797724d040b08fcec142edb89b4449",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619164860654,
+          "stop" : 1619164860774,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b797724d040b08fcec142edb89b4449"
+    }, {
+      "name" : "6872-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "e89ccf541e7621f4",
+        "parentUid" : "8b33e6feedbc1d66d75bb1914c1a6812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163524565,
+          "stop" : 1619163524672,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b33e6feedbc1d66d75bb1914c1a6812"
+    }, {
+      "name" : "26764-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "d171d3a1691d6fd4",
+        "parentUid" : "ae395c7f471f5f007d2689d2d05b8269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619083989006,
+          "stop" : 1619083989117,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae395c7f471f5f007d2689d2d05b8269"
+    }, {
+      "name" : "26372-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "74f4cb7706f12e8b",
+        "parentUid" : "deb21e93c36ef74bf6ffb169709f6933",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163318256,
+          "stop" : 1619163318364,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "deb21e93c36ef74bf6ffb169709f6933"
+    }, {
+      "name" : "17032-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "f65ec2f46c277062",
+        "parentUid" : "88e6e54f3767a7a24356701fa4bfe8f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619162175256,
+          "stop" : 1619162175370,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88e6e54f3767a7a24356701fa4bfe8f8"
+    }, {
+      "name" : "5580-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "9bdbdca32e75340d",
+        "parentUid" : "6cd57f586631366c8eb9b6d29366ae01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619162523576,
+          "stop" : 1619162523694,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6cd57f586631366c8eb9b6d29366ae01"
+    }, {
+      "name" : "17304-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "6987c916d115b521",
+        "parentUid" : "00b5903a63af755a7344c87d7247edc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619164272229,
+          "stop" : 1619164272336,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00b5903a63af755a7344c87d7247edc3"
+    }, {
+      "name" : "27912-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "64162024e69e02b9",
+        "parentUid" : "858057d2aef3d2af54f7a0c255c730aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619089396077,
+          "stop" : 1619089396185,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "858057d2aef3d2af54f7a0c255c730aa"
+    }, {
+      "name" : "14024-MainThread",
+      "children" : [ {
+        "name" : "allure报告中用例名字",
+        "uid" : "60a58b1c7c81762a",
+        "parentUid" : "a8adbee7d862b5d6ab232fde24d9493a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163016567,
+          "stop" : 1619163016678,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8adbee7d862b5d6ab232fde24d9493a"
+    } ],
+    "uid" : "1565bed0b9028da86de97fe1f745dc3e"
+  } ],
+  "name" : "timeline"
+}

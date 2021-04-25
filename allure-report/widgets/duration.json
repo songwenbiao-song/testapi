@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9e563d48ee369f",
+  "name" : "test_post_json",
+  "time" : {
+    "start" : 1619262060597,
+    "stop" : 1619262060597,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

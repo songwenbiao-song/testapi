@@ -1,0 +1,565 @@
+{
+  "uid" : "9e563d48ee369f",
+  "name" : "test_post_json",
+  "fullName" : "test_case.test_ure#test_post_json",
+  "historyId" : "f07f20f711a3d783b17eac6fedd1a4b3",
+  "time" : {
+    "start" : 1619262060597,
+    "stop" : 1619262060597,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'",
+  "statusTrace" : "@pytest.fixture(scope='session')\n    def pub_data():\n>       data = {'token':login('')}\n\nH:\\项目\\api_test\\conftest.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nH:\\项目\\api_test\\conftest.py:20: in login\n    r = request_tool.request(method=method, url=uri, pub_data=pub_data, json_data=json_data, status_code=status_code,\ntools\\report\\decorators_tool.py:102: in function\n    resp = func(*args,**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nargs = ()\nkwargs = {'json': {'password': 'admin123', 'username': 'admin'}, 'method': 'POST', 'url': 'http://192.168.0.135:6090//userapi/login'}\nr = ()\n\n    def _func(*args, **kwargs):\n        r= func(*args, **kwargs)\n        request = \"-------------------request-------------\" \\\n>                 \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\nE       AttributeError: 'tuple' object has no attribute 'url'\n\ntools\\report\\decorators_tool.py:15: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pub_data",
+    "time" : {
+      "start" : 1619262060599,
+      "stop" : 1619262062788,
+      "duration" : 2189
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'\n",
+    "statusTrace" : "  File \"c:\\users\\asus\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"c:\\users\\asus\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pytest\\fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"c:\\users\\asus\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pytest\\fixtures.py\", line 783, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"H:\\项目\\api_test\\conftest.py\", line 31, in pub_data\n    data = {'token':login('')}\n  File \"H:\\项目\\api_test\\conftest.py\", line 20, in login\n    r = request_tool.request(method=method, url=uri, pub_data=pub_data, json_data=json_data, status_code=status_code,\n  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 102, in function\n    resp = func(*args,**kwargs)\n  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 15, in _func\n    \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\n",
+    "steps" : [ {
+      "name" : "第一步：获取url",
+      "time" : {
+        "start" : 1619262060599,
+        "stop" : 1619262060599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第二步：准备测试数据",
+      "time" : {
+        "start" : 1619262060599,
+        "stop" : 1619262060599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第三步：发送请求",
+      "time" : {
+        "start" : 1619262060600,
+        "stop" : 1619262062787,
+        "duration" : 2187
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'\n",
+      "statusTrace" : "  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 102, in function\n    resp = func(*args,**kwargs)\n  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 15, in _func\n    \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'",
+    "statusTrace" : "@pytest.fixture(scope='session')\n    def pub_data():\n>       data = {'token':login('')}\n\nH:\\项目\\api_test\\conftest.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nH:\\项目\\api_test\\conftest.py:20: in login\n    r = request_tool.request(method=method, url=uri, pub_data=pub_data, json_data=json_data, status_code=status_code,\ntools\\report\\decorators_tool.py:102: in function\n    resp = func(*args,**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nargs = ()\nkwargs = {'json': {'password': 'admin123', 'username': 'admin'}, 'method': 'POST', 'url': 'http://192.168.0.135:6090//userapi/login'}\nr = ()\n\n    def _func(*args, **kwargs):\n        r= func(*args, **kwargs)\n        request = \"-------------------request-------------\" \\\n>                 \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\nE       AttributeError: 'tuple' object has no attribute 'url'\n\ntools\\report\\decorators_tool.py:15: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fd96a59b5b2fc348",
+      "name" : "log",
+      "source" : "fd96a59b5b2fc348.txt",
+      "type" : "text/plain",
+      "size" : 454
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ure"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DBKS4O"
+  }, {
+    "name" : "thread",
+    "value" : "31216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "971ea26e087e76b7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'tuple' object has no attribute 'url'",
+      "time" : {
+        "start" : 1619175660819,
+        "stop" : 1619175660819,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "af46c0067d3f29f3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'tuple' object has no attribute 'url'",
+      "time" : {
+        "start" : 1619173720364,
+        "stop" : 1619173720364,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "98f13e6b343619c5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'tuple' object has no attribute 'url'",
+      "time" : {
+        "start" : 1619173646040,
+        "stop" : 1619173646040,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9fa1142d67ea7fe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619164860654,
+        "stop" : 1619164860774,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "6987c916d115b521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619164272229,
+        "stop" : 1619164272336,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "a28bb9fca4da8847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163857333,
+        "stop" : 1619163857441,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "e89ccf541e7621f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163524565,
+        "stop" : 1619163524672,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "74f4cb7706f12e8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163318256,
+        "stop" : 1619163318364,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "60a58b1c7c81762a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163016567,
+        "stop" : 1619163016678,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "9bdbdca32e75340d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619162523576,
+        "stop" : 1619162523694,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "f65ec2f46c277062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619162175256,
+        "stop" : 1619162175370,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "ff06dea5c269122c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619161973202,
+        "stop" : 1619161973327,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "b5ddefbfdef8423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619161850714,
+        "stop" : 1619161850836,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "fc4b2dcb0ac92f26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619159660891,
+        "stop" : 1619159661001,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "37e26d69c2cedea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619159559032,
+        "stop" : 1619159559140,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "99822a0036534819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619151845649,
+        "stop" : 1619151845763,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "ea72f0ac81ae7d87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619150272016,
+        "stop" : 1619150272124,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "3fdbeedb66be0095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619150163079,
+        "stop" : 1619150163193,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "f018d4235651fd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619150121119,
+        "stop" : 1619150121230,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "c03921124fcb3b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619150082917,
+        "stop" : 1619150083028,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "5b60e3da93bab58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619144368917,
+        "stop" : 1619144369020,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "82ea460c36aade28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619144290993,
+        "stop" : 1619144291111,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "a58849821b98ab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619142498538,
+        "stop" : 1619142498653,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "d4aff7c6ec678a64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619089426965,
+        "stop" : 1619089427068,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "64162024e69e02b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619089396077,
+        "stop" : 1619089396185,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "166a50fa163b5c9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'config.conf' has no attribute 'API_URL'",
+      "time" : {
+        "start" : 1619084320493,
+        "stop" : 1619084320493,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d171d3a1691d6fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619083989006,
+        "stop" : 1619083989117,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "53d97ca7ef367dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619083815384,
+        "stop" : 1619083815511,
+        "duration" : 127
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 30
+      },
+      "items" : [ {
+        "uid" : "d111c827f9216dc5",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/29/allure/#testresult/d111c827f9216dc5",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'tuple' object has no attribute 'url'",
+        "time" : {
+          "start" : 1619175660819,
+          "stop" : 1619175660819,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9860987984f29873",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/28/allure/#testresult/9860987984f29873",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'tuple' object has no attribute 'url'",
+        "time" : {
+          "start" : 1619173720364,
+          "stop" : 1619173720364,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "32e8a05509846717",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/27/allure/#testresult/32e8a05509846717",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'tuple' object has no attribute 'url'",
+        "time" : {
+          "start" : 1619173646040,
+          "stop" : 1619173646040,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ddb2421dd514ec9b",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/26/allure/#testresult/ddb2421dd514ec9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619164860654,
+          "stop" : 1619164860774,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "f61d04b65cb2a1e6",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/25/allure/#testresult/f61d04b65cb2a1e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619164272229,
+          "stop" : 1619164272336,
+          "duration" : 107
+        }
+      }, {
+        "uid" : "7fc287cdb2e9bc85",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/24/allure/#testresult/7fc287cdb2e9bc85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163857333,
+          "stop" : 1619163857441,
+          "duration" : 108
+        }
+      }, {
+        "uid" : "bce7c9c4225a5045",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/23/allure/#testresult/bce7c9c4225a5045",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163524565,
+          "stop" : 1619163524672,
+          "duration" : 107
+        }
+      }, {
+        "uid" : "724e9f67183d95d1",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/22/allure/#testresult/724e9f67183d95d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163318256,
+          "stop" : 1619163318364,
+          "duration" : 108
+        }
+      }, {
+        "uid" : "ce5a8667c039d6c0",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/21/allure/#testresult/ce5a8667c039d6c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163016567,
+          "stop" : 1619163016678,
+          "duration" : 111
+        }
+      }, {
+        "uid" : "333ca43786c5e69e",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/20/allure/#testresult/333ca43786c5e69e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619162523576,
+          "stop" : 1619162523694,
+          "duration" : 118
+        }
+      }, {
+        "uid" : "9f65bc006b7688d2",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/19/allure/#testresult/9f65bc006b7688d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619162175256,
+          "stop" : 1619162175370,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "2bc76135c509e04b",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/18/allure/#testresult/2bc76135c509e04b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619161973202,
+          "stop" : 1619161973327,
+          "duration" : 125
+        }
+      }, {
+        "uid" : "8b206991b749a2e5",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/17/allure/#testresult/8b206991b749a2e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619161850714,
+          "stop" : 1619161850836,
+          "duration" : 122
+        }
+      }, {
+        "uid" : "9c1cf0d2116418c5",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/16/allure/#testresult/9c1cf0d2116418c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619159660891,
+          "stop" : 1619159661001,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "8720d3c02f6f9be6",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/15/allure/#testresult/8720d3c02f6f9be6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619159559032,
+          "stop" : 1619159559140,
+          "duration" : 108
+        }
+      }, {
+        "uid" : "a0e1188a0ef2d232",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/14/allure/#testresult/a0e1188a0ef2d232",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619151845649,
+          "stop" : 1619151845763,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "334b42bfae184ef4",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/13/allure/#testresult/334b42bfae184ef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150272016,
+          "stop" : 1619150272124,
+          "duration" : 108
+        }
+      }, {
+        "uid" : "8b05a4499c8757b8",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/12/allure/#testresult/8b05a4499c8757b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150163079,
+          "stop" : 1619150163193,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "79dd7e49f803acf0",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/11/allure/#testresult/79dd7e49f803acf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150121119,
+          "stop" : 1619150121230,
+          "duration" : 111
+        }
+      }, {
+        "uid" : "e0b02283f98d8a56",
+        "reportUrl" : "http://192.168.50.81:8080/jenkins/job/%E6%B5%8B%E8%AF%95/10/allure/#testresult/e0b02283f98d8a56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150082917,
+          "stop" : 1619150083028,
+          "duration" : 111
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9e563d48ee369f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'tuple' object has no attribute 'url'",
+      "children" : [ {
+        "name" : "test_post_json",
+        "uid" : "9e563d48ee369f",
+        "parentUid" : "0883341e1613e7c69239c9ec2a4cb0cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619262060597,
+          "stop" : 1619262060597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0883341e1613e7c69239c9ec2a4cb0cd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

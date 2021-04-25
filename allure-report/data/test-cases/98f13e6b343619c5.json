@@ -1,0 +1,137 @@
+{
+  "uid" : "98f13e6b343619c5",
+  "name" : "test_post_json",
+  "fullName" : "test_case.test_ure#test_post_json",
+  "historyId" : "f07f20f711a3d783b17eac6fedd1a4b3",
+  "time" : {
+    "start" : 1619173646040,
+    "stop" : 1619173646040,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'",
+  "statusTrace" : "@pytest.fixture(scope='session')\n    def pub_data():\n>       data = {'token':login('')}\n\nH:\\项目\\api_test\\conftest.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nH:\\项目\\api_test\\conftest.py:20: in login\n    r = request_tool.request(method=method, url=uri, pub_data=pub_data, json_data=json_data, status_code=status_code,\ntools\\report\\decorators_tool.py:102: in function\n    resp = func(*args,**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nargs = ()\nkwargs = {'json': {'password': 'admin123', 'username': 'admin'}, 'method': 'POST', 'url': 'http://192.168.0.135:6090//userapi/login'}\nr = ()\n\n    def _func(*args, **kwargs):\n        r= func(*args, **kwargs)\n        request = \"-------------------request-------------\" \\\n>                 \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\nE       AttributeError: 'tuple' object has no attribute 'url'\n\ntools\\report\\decorators_tool.py:15: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pub_data",
+    "time" : {
+      "start" : 1619173646042,
+      "stop" : 1619173648247,
+      "duration" : 2205
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'\n",
+    "statusTrace" : "  File \"c:\\users\\asus\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"c:\\users\\asus\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pytest\\fixtures.py\", line 923, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"c:\\users\\asus\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pytest\\fixtures.py\", line 783, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"H:\\项目\\api_test\\conftest.py\", line 31, in pub_data\n    data = {'token':login('')}\n  File \"H:\\项目\\api_test\\conftest.py\", line 20, in login\n    r = request_tool.request(method=method, url=uri, pub_data=pub_data, json_data=json_data, status_code=status_code,\n  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 102, in function\n    resp = func(*args,**kwargs)\n  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 15, in _func\n    \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\n",
+    "steps" : [ {
+      "name" : "第一步：获取url",
+      "time" : {
+        "start" : 1619173646042,
+        "stop" : 1619173646042,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第二步：准备测试数据",
+      "time" : {
+        "start" : 1619173646042,
+        "stop" : 1619173646042,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第三步：发送请求",
+      "time" : {
+        "start" : 1619173646042,
+        "stop" : 1619173648246,
+        "duration" : 2204
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'\n",
+      "statusTrace" : "  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 102, in function\n    resp = func(*args,**kwargs)\n  File \"C:\\Users\\Asus\\Desktop\\测试项目\\api_test\\tools\\report\\decorators_tool.py\", line 15, in _func\n    \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'tuple' object has no attribute 'url'",
+    "statusTrace" : "@pytest.fixture(scope='session')\n    def pub_data():\n>       data = {'token':login('')}\n\nH:\\项目\\api_test\\conftest.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nH:\\项目\\api_test\\conftest.py:20: in login\n    r = request_tool.request(method=method, url=uri, pub_data=pub_data, json_data=json_data, status_code=status_code,\ntools\\report\\decorators_tool.py:102: in function\n    resp = func(*args,**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nargs = ()\nkwargs = {'json': {'password': 'admin123', 'username': 'admin'}, 'method': 'POST', 'url': 'http://192.168.0.135:6090//userapi/login'}\nr = ()\n\n    def _func(*args, **kwargs):\n        r= func(*args, **kwargs)\n        request = \"-------------------request-------------\" \\\n>                 \"\\n{0}\\n{1}\\n{2}\".format(r.url, string_tool.dic_to_str(r.request.headers), r.request.body)\nE       AttributeError: 'tuple' object has no attribute 'url'\n\ntools\\report\\decorators_tool.py:15: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1e03d6e3225be1a",
+      "name" : "log",
+      "source" : "a1e03d6e3225be1a.txt",
+      "type" : "text/plain",
+      "size" : 454
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_ure"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DBKS4O"
+  }, {
+    "name" : "thread",
+    "value" : "7816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_ure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98f13e6b343619c5.json",
+  "parameterValues" : [ ]
+}

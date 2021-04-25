@@ -1,0 +1,46 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 187.878 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://192.168.0.135:6090//userapi/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 45
+                                              Content-Type: application/json
+                                              
+                                              b'{"username": "admin", "password": "admin123"}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Server: nginx/1.19.2
+                                              Date: Fri, 23 Apr 2021 03:55:20 GMT
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Connection: keep-alive
+                                              X-Content-Type-Options: nosniff
+                                              X-XSS-Protection: 1; mode=block
+                                              Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+                                              Pragma: no-cache
+                                              Expires: 0
+                                              
+                                              {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiN2M3ZTU5LWNhNzgtNGI3Ny1hOWIwLWRmODJlMzVhNGU4ZSJ9.SI0se8-g2XXXHVTtF-03WVii5wRIEQXWrfSd2NIeQNtDlCBJLz395QxXz7xJvBMCdhLE_4z7eMLKoaOMUephSw"}
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 106.39 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://192.168.0.135:6090//api/voiceRecordInfo/queryVoiceRecordInfoPage
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Authorization: eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiN2M3ZTU5LWNhNzgtNGI3Ny1hOWIwLWRmODJlMzVhNGU4ZSJ9.SI0se8-g2XXXHVTtF-03WVii5wRIEQXWrfSd2NIeQNtDlCBJLz395QxXz7xJvBMCdhLE_4z7eMLKoaOMUephSw
+                                              Content-Length: 103
+                                              Content-Type: application/json
+                                              
+                                              b'{"beginTime": "2021-03-17", "endTime": "2021-03-17", "pageNo": 1, "pageSize": 10, "policeOfficeId": []}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Server: nginx/1.19.2
+                                              Date: Fri, 23 Apr 2021 03:55:21 GMT
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Connection: keep-alive
+                                              
+                                              {"msg":"操作成功","code":200,"data":{"pageNum":1,"pageSize":10,"total":"0","pages":0,"list":[]}}
