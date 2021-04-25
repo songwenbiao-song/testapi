@@ -8,8 +8,8 @@ p = '/api/voiceRecordInfo/queryVoiceRecordInfoPage'
 def test_post_json(pub_data):
     method = "POST"  # 请求方法，全部大写
     feature = "测试"  # allure报告中一级分类
-    story = '用户登录'  # allure报告中二级分类
-    title = "全字段正常流_1"  # allure报告中用例名字
+    story = 'allure报告中二级分类'  # allure报告中二级分类
+    title = "allure报告中用例名字"  # allure报告中用例名字
     uri = f"{p}"  # 接口地址    f的使用
     # post请求json数据，注意数据格式为字典或者为json串 为空写None
     headers = {'Authorization':'${token}'}
@@ -24,3 +24,4 @@ def test_post_json(pub_data):
     a = r.json()['msg']
     b = '操作成功'
     assert_equal(a,b)
+    return a
